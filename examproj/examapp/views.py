@@ -9,6 +9,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 import PyPDF2
 import google.generativeai as genai
 from .ai import generate_reponse
+import requests
 from google.cloud import storage
 # Configure GenerativeAI with your API key
 GOOGLE_API_KEY = "AIzaSyCHSc9DMrXir-k0pH1ojSpYMloLcwyDDW8"
@@ -16,6 +17,20 @@ genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize the GenerativeModel with Gemini-Pro
 model = genai.GenerativeModel('gemini-pro')
+
+
+
+def download_file(url, destination_file):
+    """Downloads a file from a URL."""
+    account_sid = os.environ.get("ACCOUNT_SID")
+    auth_token = os.environ.get("AUTH_TOKEN")
+    response = requests.get(url, auth=(account_sid, auth_token))
+    print(response)
+    if response.status_code == 200:
+        with open(destination_file, 'wb') as file:
+            file.write(response.content)
+    else:
+        print(f"Failed to download file from {url}")
 
 @csrf_exempt
 def home(request):
@@ -38,12 +53,18 @@ def home(request):
             ai_response = generate_reponse(the_Message)
             send_whatsapp_message(TWILID_PHONE_NUMBER, the_number, ai_response)
         else:
-            file_url = request.POST.get("MediaUrlO")
-            file_name = "example"
+            file_url = request.POST.get("MediaUrl0")
+            print(file_url)
+            temp_file ="/home/wethinkcode/Documents/ExamCraft/nkosi.pdf"
+            download_file(file_url, temp_file)
+
+            file_name = "file.pdf"
             storage_client = storage.Client()
             bucket = storage_client.bucket("examcraft")
             blob = bucket.blob(file_name)
-            blob.upload_from_filename(file_url)
+            current_dir = os.path.abspath(__file__)
+            print(current_dir)
+            blob.upload_from_filename(f"/home/wethinkcode/Documents/ExamCraft/nkosi.pdf")
             print(f"File {file_url} uploaded succesfully!!")
             
        
