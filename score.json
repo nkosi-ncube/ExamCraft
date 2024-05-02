@@ -1,0 +1,55 @@
+{
+    "name": "Donald Motswiri",
+    "email": "domotswiri@gmail.com",
+    "scores": {
+        "Arithmetic and Basic Algebra": {
+            "Basic Operations": 85,
+            "Fractions and Decimals": 78,
+            "Exponents and Roots": 72,
+            "Basic Algebra": 80
+        },
+        "Geometry and Trigonometry": {
+            "Geometry": 68,
+            "Trigonometry": 74,
+            "Analytic Geometry": 76
+        },
+        "Algebra and Linear Algebra": {
+            "Advanced Algebra": 71,
+            "Linear Algebra": 65
+        },
+        "Calculus and Differential Equations": {
+            "Differential Calculus": 60,
+            "Integral Calculus": 58,
+            "Differential Equations": 55
+        },
+        "Probability and Statistics": {
+            "Probability": 70,
+            "Statistics": 68,
+            "Data Analysis": 72
+        },
+        "Discrete Mathematics": {
+            "Combinatorics": 77,
+            "Graph Theory": 65,
+            "Discrete Structures": 73
+        },
+        "Number Theory and Abstract Algebra": {
+            "Number Theory": 63,
+            "Abstract Algebra": 60
+        },
+        "Applied Mathematics and Computer Science": {
+            "Operations Research": 69,
+            "Numerical Analysis": 66,
+            "Computational Mathematics": 71
+        },
+        "Mathematical Logic and Foundations": {
+            "Logic": 72,
+            "Set Theory": 68,
+            "Model Theory": 65
+        },
+        "Advanced Topics and Specialized Fields": {
+            "Topology": 64,
+            "Differential Geometry": 62,
+            "Algebraic Geometry": 61
+        }
+    }
+}
