@@ -40,6 +40,7 @@ ExamCraft is an innovative AI-powered study companion designed to enhance exam p
 6. Access the web application through your browser, input the study prompt, and receive study materials via WhatsApp.
 
 ### To run on whatsapp 
+
 1. First add the following number :+14155238886 to join the Twilio Sandbox.
 2. Secondly send `join master-roll` to the saved number.
 
