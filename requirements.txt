@@ -29,9 +29,9 @@ googleapis-common-protos==1.63.0
 grpc-google-iam-v1==0.13.0
 grpcio==1.63.0
 grpcio-status==1.62.2
-gunicorn==22.0.0
 httplib2==0.22.0
 idna==3.7
+gunicorn
 multidict==6.0.5
 numpy==1.26.4
 packaging==24.0
