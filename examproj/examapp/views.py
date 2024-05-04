@@ -12,7 +12,7 @@ from .ai import generate_reponse
 import requests
 from google.cloud import storage
 # Configure GenerativeAI with your API key
-GOOGLE_API_KEY = "AIzaSyCHSc9DMrXir-k0pH1ojSpYMloLcwyDDW8"
+GOOGLE_API_KEY = "
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize the GenerativeModel with Gemini-Pro
