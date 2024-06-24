@@ -133,7 +133,7 @@ from google.oauth2 import service_account
 import boto3
 import time
 # Configure GenerativeAI with your API key
-GOOGLE_API_KEY = "AIzaSyCHSc9DMrXir-k0pH1ojSpYMloLcwyDDW8"
+GOOGLE_API_KEY = "
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize the GenerativeModel with Gemini-Pro
