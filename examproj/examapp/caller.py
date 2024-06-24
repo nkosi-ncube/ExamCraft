@@ -4,9 +4,9 @@ from concurrent.futures import ThreadPoolExecutor
 
 def make_call(customer_number):
     # Your Vapi API Authorization token
-    auth_token = '2e9645fa-59e7-4631-a1c3-cefb2ca27d3e'
+    auth_token = ''
     # The Phone Number ID, and the Customer details for the call
-    phone_number_id = 'f1aa7463-7fb4-4a83-acb1-6e875fdaf5ca'
+    phone_number_id = ''
     # customer_number = "+17069141629"
     headers = {
         'Authorization': f'Bearer {auth_token}',
