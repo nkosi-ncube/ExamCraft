@@ -1,6 +1,7 @@
 aiohttp==3.9.5
 aiohttp-retry==2.8.3
 aiosignal==1.3.1
+boto3
 annotated-types==0.6.0
 asgiref==3.8.1
 async-timeout==4.0.3

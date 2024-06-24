@@ -4,8 +4,12 @@ import os
 
 def generate_reponse(user_prompt):
     root_project_folder = os.path.dirname(__file__)
-    key_file_path ="application_default_credentials.json"
+    print("Root Folder: ", root_project_folder)
+    key_file_path ="creds.json"
     key_path= os.path.join(root_project_folder, key_file_path)
+    # print(key_path)
+    # credentials = service_account.Credentials.from_service_account_file(key_path)
+    # storage_client = storage.Client(credentials=credentials)
     GOOGLE_APPLICATION_CREDENTIALS = key_path
     project_id = "strong-kit-422108-p4"
 
@@ -39,7 +43,7 @@ if user says thank you and bye.Respond with a goodbye message Like 'you welcome 
 
     """
 
-    pdf_file_uri = "gs://examcraft/file.pdf"
+    pdf_file_uri = "gs://examcraft/nkosi.pdf"
 
     pdf_file = Part.from_uri(pdf_file_uri, mime_type="application/pdf")
 
