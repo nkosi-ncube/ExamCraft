@@ -2,7 +2,21 @@
 
 ## Overview
 
-ExamCraft is an innovative AI-powered study companion designed to enhance exam preparation methods by analyzing past exam papers, generating personalized study materials, and delivering them to users via messaging platforms like WhatsApp. This README provides guidance on how to implement the project using various technologies, including Natural Language Processing (NLP) with spaCy and Hugging Face Transformers, and Machine Learning (ML) with Google GenerativeAI and Vertex AI.
+Welcome to ExamCraft!
+
+ExamCraft is your ultimate AI-powered study companion, designed to transform how you prepare for exams. Our innovative platform takes the stress out of studying by analyzing past exam papers and generating personalized study materials that cater specifically to your needs.
+
+Here’s how ExamCraft works:
+
+Smart Analysis: ExamCraft uses advanced Natural Language Processing (NLP) technology from spaCy and Hugging Face Transformers to thoroughly analyze past exam papers. This helps us understand the types of questions that frequently appear and the key topics you need to focus on.
+
+Customized Learning: Once the analysis is complete, our system leverages powerful Machine Learning models from Google GenerativeAI and Vertex AI to create personalized study materials just for you. This ensures that you’re studying the right material and can maximize your efficiency.
+
+Convenient Delivery: We understand the importance of convenience in today’s fast-paced world. That’s why ExamCraft delivers all your study resources directly to your WhatsApp. This way, you can study anytime, anywhere, right from your phone.
+
+AI Assistance: Sometimes, text explanations might not be enough. If you ever find yourself stuck or needing more detailed help, simply request a call from our AI assistant. Our AI will call you and provide a comprehensive explanation, ensuring you fully understand the topic.
+
+With ExamCraft, you’re not just studying harder; you’re studying smarter. Let us help you take your exam preparation to the next level. Transform your study experience with ExamCraft and ace your exams like never before!
 
 ## Technologies and Resources
 
