@@ -172,7 +172,7 @@ def home(request):
         if the_Message.lower() in ["hie","hey","hello","hy"]:
             print("i get in here")
             print("i just got updated")
-            s3 = boto3.client('s3', aws_access_key_id='AKIA47CRZM3ITOQWYKEV', aws_secret_access_key='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')
+            s3 = boto3.client('s3', aws_access_key_id='', aws_secret_access_key='')
             bucket_name = 'whatsapp-music-downloader'
             # print("please wait while song gets uplaoded to AWS S3 BUCKET")
             # s3.upload_file(output_path, bucket_name, filename, ExtraArgs={'ContentType': 'audio/mpeg'})
