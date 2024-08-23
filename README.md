@@ -1,106 +1,56 @@
-# ExamCraft: AI-Powered Study Companion
+# Problem Statement
 
-## Overview
+## Challenges in Student Well-Being and Academic Success
 
-Welcome to ExamCraft!
+Students today face a myriad of challenges that significantly impact their academic performance and overall well-being. The pressures of academic expectations, experiences of bullying, discrimination, and inadequate support systems contribute to these challenges. Traditional educational environments often fall short in addressing these issues comprehensively, leaving students vulnerable and unsupported. The lack of effective, integrated tools to help students navigate both their academic and emotional challenges can lead to adverse outcomes, including decreased academic performance, absenteeism, and severe mental health issues.
 
-ExamCraft is your ultimate AI-powered study companion, designed to transform how you prepare for exams. Our innovative platform takes the stress out of studying by analyzing past exam papers and generating personalized study materials that cater specifically to your needs.
+An alarming 9% of all teenage deaths are suicides, according to statistics released by the South African Depression and Anxiety Group (SADAG) in 2022. Worse still, one in five of South Africa's high school learners have attempted to take their own lives, with this figure continuing to climb. This underscores the urgent need for a solution that supports students both academically and emotionally, addressing these challenges in a holistic and accessible manner.
 
-Here’s how ExamCraft works:
+# Solution
 
-- **Smart Analysis**: ExamCraft uses advanced Natural Language Processing (NLP) technology from spaCy and Hugging Face Transformers to thoroughly analyze past exam papers. This helps us understand the types of questions that frequently appear and the key topics you need to focus on.
+## ExamCraft: Academic and Emotional Support for Students
 
-- **Customized Learning**: Once the analysis is complete, our system leverages powerful Machine Learning models from Google GenerativeAI and Vertex AI to create personalized study materials just for you. This ensures that you’re studying the right material and can maximize your efficiency.
+ExamCraft is an AI-powered platform designed to support students in both their academic and emotional well-being. While ExamCraft offers advanced tools for exam preparation—such as personalized study materials, quizzes, and AI-driven explanations—it also addresses the critical issue of student mental health.
 
-- **Convenient Delivery**: We understand the importance of convenience in today’s fast-paced world. That’s why ExamCraft delivers all your study resources directly to your WhatsApp. This way, you can study anytime, anywhere, right from your phone.
+### Key Features:
 
-- **AI Assistance**: Sometimes, text explanations might not be enough. If you ever find yourself stuck or needing more detailed help, simply request a call from our AI assistant. Our AI will call you and provide a comprehensive explanation, ensuring you fully understand the topic.
+1. **Smart Analysis and Customized Learning:**
+   - **Advanced NLP Technology:** Uses spaCy and Hugging Face Transformers to analyze past exam papers, identifying key topics and frequently asked questions.
+   - **Targeted Study Materials:** Creates personalized study materials using Google GenerativeAI and Vertex AI, ensuring students focus on essential content.
 
-With ExamCraft, you’re not just studying harder; you’re studying smarter. Let us help you take your exam preparation to the next level. Transform your study experience with ExamCraft and ace your exams like never before!
+2. **Comprehensive Support:**
+   - **Multi-format Support:** Students can submit questions in text, image, video, audio, handwritten, or typed formats.
+   - **Multilingual AI Solutions:** AI provides solutions in all 11 official South African languages, supporting diverse linguistic needs.
+   - **Interactive Learning:** If students don’t understand a concept after multiple attempts, the AI offers to explain it via a phone call, ensuring thorough understanding.
 
-## Future Improvements
+3. **Quizzes and Tests:**
+   - **Personalized Quizzes:** Offers quizzes and tests tailored to students' learning progress.
+   - **Progress Tracking:** Tracks performance, awarding badges for achievements, and saving progress in a secure database.
+   - **Continuous Improvement:** Encourages ongoing learning by adapting to students’ strengths and weaknesses.
 
-### Interactive Features
+4. **Convenient Delivery:**
+   - **WhatsApp Integration:** All study resources, quizzes, and tests are delivered directly to students' WhatsApp, enabling study on the go.
+   - **Flexible Learning:** Supports studying anytime, anywhere, fitting seamlessly into students' daily routines.
 
-- **Quizzes and Practice Tests**: Generate quizzes and practice tests based on analyzed past papers, allowing users to test their knowledge and get immediate feedback.
+5. **AI Assistance:**
+   - **24/7 Support:** Provides instant help with AI-powered solutions, ensuring students always have access to support.
+   - **Comprehensive Explanations:** Offers in-depth explanations for complex topics through text, audio, and calls, enhancing understanding.
 
-- **Progress Tracking**: Include a dashboard that tracks users’ study progress, highlighting strengths and areas needing improvement.
+6. **Safety and Well-Being Support:**
+   - **Reporting System:** Allows students to report incidents of abuse, discrimination, or other concerns confidentially, providing a safe and supportive environment.
+   - **Suicidal Thoughts Support:** Detects keywords related to suicidal thoughts and offers immediate support by connecting students with mental health resources and logging interactions for professional follow-up.
+   - **Empathetic Handling:** Ensures all reports and support requests are handled with empathy and confidentiality, protecting students' privacy.
 
-### Personalization Features
+7. **Holistic Approach:**
+   - **Academic and Emotional Support:** Combines rigorous academic preparation with robust emotional support, addressing both educational and personal challenges faced by students.
 
-- **Adaptive Learning Pathways**: Develop adaptive learning pathways that adjust based on user performance, ensuring they focus on topics they struggle with the most.
+## Conclusion
 
-- **Study Schedule Planner**: Integrate a study schedule planner that creates personalized study timetables based on the user’s exam dates and availability.
+ExamCraft is more than just a study tool—it’s a holistic educational platform that supports students academically and emotionally. By offering personalized learning, multi-format support, and robust safety features, ExamCraft ensures students are not only prepared for exams but also cared for in all aspects of their educational journey. This solution addresses the urgent need to reduce student suicide rates by providing accessible, confidential support and resources when students need them most.
 
-### Collaborative Features
+## Testing the App
 
-- **Study Groups**: Allow users to join or form study groups based on similar subjects or exam dates, fostering collaborative learning.
-
-- **Peer-to-Peer Tutoring**: Implement a feature where users can either request help from peers who excel in certain subjects or offer tutoring services themselves.
-
-### Enhanced AI Assistance
-
-- **Voice Interaction**: Introduce voice interaction capabilities so users can ask questions and get explanations in real-time without needing to type.
-
-- **AI-Powered Flashcards**: Generate AI-powered flashcards for key concepts and terms, using spaced repetition to help users memorize information efficiently.
-
-### Content Expansion
-
-- **Video Tutorials**: Offer video tutorials and lectures from experts covering difficult topics, providing an alternative learning method.
-
-- **Resource Library**: Create a resource library with additional study materials like e-books, notes, and reference articles related to the subjects.
-
-### Gamification
-
-- **Achievements and Rewards**: Introduce a gamification system with achievements, badges, and rewards to motivate users and make studying more engaging.
-
-- **Leaderboards**: Implement leaderboards to create a sense of competition and encourage users to stay committed to their study routines.
-
-### Accessibility and Inclusivity
-
-- **Multilingual Support**: Add support for multiple languages to cater to non-native English speakers.
-
-- **Accessibility Options**: Ensure the platform is accessible to users with disabilities, including features like text-to-speech, adjustable font sizes, and high-contrast modes.
-
-### Security and Privacy
-
-- **Data Security**: Implement robust security measures to protect user data and ensure privacy, including encryption and secure login methods.
-
-- **Parental Controls**: Provide parental control options for younger users, allowing parents to monitor and manage their child’s study activities.
-
-Incorporating these features can make ExamCraft even more comprehensive and user-friendly, offering a more holistic approach to exam preparation.
-
-## Technologies and Resources
-
-### Machine Learning (ML)
-
-- **Google GenerativeAI**: [Google GenerativeAI](https://cloud.google.com/generative-ai/docs)
-- **Vertex AI**: [Vertex AI Documentation](https://cloud.google.com/vertex-ai/docs)
-
-### Messaging Platforms Integration
-
-- **Twilio WhatsApp API**: [Twilio WhatsApp API Docs](https://www.twilio.com/docs/whatsapp)
-
-## Implementation Steps
-
-1. **Receive User Prompt**: Implement a Django web application (`views.py`) where users can input their study prompts.
-2. **PDF Retrieval**: Within the Django application, retrieve the relevant PDF document containing exam information.
-3. **AI Content Generation**: Utilize the `ai.py` script to generate study materials based on the user prompt and exam document using Google GenerativeAI.
-4. **Twilio Integration**: Integrate with the Twilio WhatsApp API to send the generated study materials to users via WhatsApp messages.
-
-## Project Structure
-
-- `README.md`: This document providing an overview of the project.
-- `ai.py`: Contains functions for generating study materials using Google GenerativeAI.
-- `views.py`: Django view functions for handling user requests and generating study materials.
-- `templates/`: Directory containing HTML templates for the web interface.
-- `static/`: Directory containing static files (e.g., CSS, JavaScript) for the web interface.
-
-## Usage
-
-1. Clone this repository to your local machine.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Set up your Google Cloud Storage account and Twilio account, obtaining necessary credentials.
-4. Update the environment variables in your Django settings file (`settings.py`) with your Google Cloud Storage and Twilio credentials.
-5. Run the Django web application using `python manage.py runserver`.
-6. Access the web application through your browser, input the study prompt, and receive study materials via WhatsApp.
+To test the ExamCraft app, follow these steps:
+1. Save the Twilio number: `+1 (415) 523-8886`.
+2. Send a WhatsApp message to the number with the text `join think-carried`.
+3. After joining, send a message saying `Hie` and follow the prompts that follow.
